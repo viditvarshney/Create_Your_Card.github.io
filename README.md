@@ -34,6 +34,6 @@ I use here  :--
 
 * HTML
 * CSS
-* A little bit Javascript.
+* A little bit Javascript. 
 
 
