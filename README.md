@@ -25,7 +25,7 @@ The best thing of this is that it produces a different **CVV** , when you run th
 
 ***
 
-Connect me at [Facebook](www.facebook.com/viditvarshney222/) , [Twitter](https://twitter.com/varshney_vidit)
+Connect me at [Facebook](www.facebook.com/vidit.varshney222/) , [Twitter](https://twitter.com/varshney_vidit)
 
 
 ***
