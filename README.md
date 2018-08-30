@@ -32,9 +32,8 @@ Connect me at [Facebook](www.facebook.com/viditvarshney222/) , [Twitter](https:/
 
 I use here  :--
 
-1 HTML
-2 CSS
-3 A little bit Javascript.
-
+* HTML
+* CSS
+* A little bit Javascript.
 
 
