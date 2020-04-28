@@ -31,27 +31,16 @@ body {
     box-shadow:5px 5px 5px black;
 }
 
-#space
-{
-    position: relative;
-    top: 80px;
-}
-
-#safe
-{
-    position:fixed;
-    bottom:3%;
-}
-
-h3
-{
-    margin-top:3%;
-    text-align:center;
-}
 
 #name
 {
-    margin-left:3%;
+    position: relative;
+    top: 160px;
+    left: 70px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    transform: scaleY(2);
+    width: fit-content;
     
 }
 
@@ -60,6 +49,13 @@ h3
     font-family:serif;
     font-weight:bold;
     color:rgba(255,255,255,1);
+}
+
+div#cvv {
+    position: relative;
+    top: 60px;
+    
+    
 }
 
 #cvv1
@@ -81,25 +77,44 @@ h3
 }
 
 .acc
-{
+{   
     font-size:1.5em;
     position:relative;
-    top:110px;
+    top:10px;
     text-align: center;
+    letter-spacing: 8px;
+    
     
 }
 
+span#valid {
+    font-weight: normal;
+    position: relative;
+    font-size: x-small;
+    
+    top: -20px;
+    left: 150px;
+
+}
+#valid_date {
+    position: relative;
+    left: 190px;
+    top: -60px;
+    transform: scaleY(2);
+    letter-spacing: 2px;
+}
 #visa {
-    font-family: Permanent Marker, cursive;
+    font-family: Permanent Marker;
     font-size: 35px;
     letter-spacing: 5px;
     float: right;
-    margin-top: 130px;
+    margin-top: -20px;
     font-weight: 400;
 }
 
-#lbl1
-{
-    position:absolute;
-    right:15%;
+
+marquee {
+    font-size: 25px;
+    letter-spacing: 2px;
+    
 }

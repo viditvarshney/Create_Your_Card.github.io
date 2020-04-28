@@ -25,15 +25,15 @@
     
     <body>
     
-        <marquee>🎊🎊 Congratulations!! You are a platinum card holder of   ☺️SB☺️ 🎊🎊</marquee>
+        <marquee>🎊🎊 Congratulations!! You are a platinum card holder of <u>Virtual Bank</u>🎊🎊. <br>Never share your card details with anyone. Be safe!! Be happy!! </marquee>
         <div class="a">
             
             <p id="platinum">PLATINUM</p>
             <img id="logo" src="/img/logo.png">
             
-            <div id="space">
-                <span id="name">Vidit Varshney</span>
-                <label id="lbl1">CVV:</label>
+            <p id="name">Vidit Varshney</p>
+            <div id="cvv">
+                
                 <span id="cvv1">1</span>
                 <span id="cvv2">2</span>
                 <span id="cvv3">3</span>
@@ -41,20 +41,24 @@
             
             
             
-            <center>
-            <span class="acc" id="acc1">8888</span>
-            <span class="acc" id="acc2">8888</span>
-            <span class="acc" id="acc3">8888</span>
-            <span class="acc" id="acc4">8888</span>
+            <center id="number" >
+                <span class="acc" id="acc1">8888</span>
+                <span class="acc" id="acc2">8888</span>
+                <span class="acc" id="acc3">8888</span>
+                <span class="acc" id="acc4">8888</span>
             </center>
-            
+            <p style="font-weight: normal;letter-spacing: 2px; font-size: smaller; position: relative; left: 70px;">0657</p>
+            <span id ="valid">VALID <br>THRU</span><p id="valid_date" >04/24</p>
             
             
             <span id="visa">VISA</span>
         </div>
         
-        <marquee id="safe">Never share your card details with anyone. Be safe!! Be happy!! </marquee>
         <script>
+            // Created by Vidit Varshney
+
+            alert("🎁 Features :\n\n1. Created with love by Vidit Varshney . \n\n2. Get your virtual debit card.\n\n3. Security :\n\n    Get different cvv and card number             \n    every time you run the code.\n\n\nIf you 💝 the code please give a :star it and will be happy to hear any feedback from your side.");
+
 
             var user = prompt("Please Enter Your Full Name","Vidit Varshney");
 
@@ -73,7 +77,6 @@
             document.getElementById("acc3").innerHTML = Math.floor((Math.random() + 3) * 1000) + " ";
 
             document.getElementById("acc4").innerHTML = Math.floor((Math.random() + 2) * 1000);  
-
 
         </script>
         
