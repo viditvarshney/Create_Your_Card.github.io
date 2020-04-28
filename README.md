@@ -2,7 +2,7 @@
 
 ***
 
-> Created by **Vidit Varshney (Waferio)**  , Made with pure HTML  ,CSS , A little bit Javascript.
+> Created by **Vidit Varshney**  , Made with pure HTML  ,CSS , A little bit Javascript.
 
 ***
 
@@ -27,6 +27,8 @@ The best thing of this is that it produces a different **CVV** , when you run th
 ![screenshot 58](https://user-images.githubusercontent.com/34159717/44858696-38063880-ac90-11e8-8e09-da227e0a5d9b.png)
 
 ***
+
+- [Demo](https://viditvarshney.github.io/Create_Your_Card.github.io/)
 
 I use here  :--
 
