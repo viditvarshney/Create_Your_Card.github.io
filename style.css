@@ -1,5 +1,5 @@
 body {
-    background-color: green;
+    background-color: grey;
 }
 
 
@@ -9,6 +9,12 @@ body {
     color: goldenrod;
     letter-spacing: 3px;
     transform: scaleY(2);
+    
+}
+
+#logo {
+    margin-left: 230px;
+    margin-top: -37px;
     
 }
 
@@ -83,29 +89,14 @@ h3
     
 }
 
-#s1
-{
-    position:absolute;
-    bottom:2%;
-    left:2%;
-    float:left;
+#visa {
+    font-family: Permanent Marker, cursive;
+    font-size: 35px;
+    letter-spacing: 5px;
+    float: right;
+    margin-top: 130px;
+    font-weight: 400;
 }
-
-#s2
-{
-    position:absolute;
-    bottom:2%;
-    right:2%;
-    float:right;
-}
-
-#membership
-{
-    position:absolute ;
-    bottom:2%;
-    left:22%;
-}
-
 
 #lbl1
 {
