@@ -6,7 +6,7 @@
 
 <!-- Will be ☺️ to hear any feedback from your side , i really wanna know your modifications or your ideas -->
 
-<!-- Thanks for your precious time  -->
+<!-- Thanks for your precious time  --> 
 
 <!-- v-1.1 Fixed some bugs -->
 
@@ -17,6 +17,8 @@
     <head>
     
         <title> 💳 Virtual Debit Card 💳 </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script> 
         
     </head>
     
@@ -52,25 +54,26 @@
         <marquee id="safe">Never share your card details with anyone. Be safe!! Be happy!! </marquee>
         <script>
 
-var user = prompt("Please Enter Your Full Name","Vidit Varshney");
+            var user = prompt("Please Enter Your Full Name","Vidit Varshney");
 
-document.getElementById("name").innerHTML = user;
+            document.getElementById("name").innerHTML = user;
 
-document.getElementById("cvv1").innerHTML = Math.floor((Math.random() * 10));
-         
-document.getElementById("cvv2").innerHTML = Math.floor((Math.random() * 10));
+            document.getElementById("cvv1").innerHTML = Math.floor((Math.random() * 10));
+                    
+            document.getElementById("cvv2").innerHTML = Math.floor((Math.random() * 10));
 
-document.getElementById("cvv3").innerHTML = Math.floor((Math.random() * 10));
+            document.getElementById("cvv3").innerHTML = Math.floor((Math.random() * 10));
 
-document.getElementById("acc1").innerHTML = Math.floor((Math.random() + 8) * 1000) + " ";
+            document.getElementById("acc1").innerHTML = Math.floor((Math.random() + 8) * 1000) + " ";
 
-document.getElementById("acc2").innerHTML = Math.floor((Math.random() + 7) * 1000) + " ";
+            document.getElementById("acc2").innerHTML = Math.floor((Math.random() + 7) * 1000) + " ";
 
-document.getElementById("acc3").innerHTML = Math.floor((Math.random() + 3) * 1000) + " ";
+            document.getElementById("acc3").innerHTML = Math.floor((Math.random() + 3) * 1000) + " ";
 
-document.getElementById("acc4").innerHTML = Math.floor((Math.random() + 2) * 1000);  
+            document.getElementById("acc4").innerHTML = Math.floor((Math.random() + 2) * 1000);  
 
 
         </script>
+        
     </body>
 </html>
