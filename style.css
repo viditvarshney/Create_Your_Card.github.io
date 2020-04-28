@@ -2,23 +2,33 @@ body {
     background-color: green;
 }
 
+
+#platinum {
+    margin-left: 3%;
+    width: fit-content;
+    color: goldenrod;
+    letter-spacing: 3px;
+    transform: scaleY(2);
+    
+}
+
 .a
 {
     position:fixed;
-    max-height:35%;
-    min-height:35%;
-    min-width:80%;
+    height: 300px;
+    width: 500px;
     top:30%;
     left:10%;
-    background:linear-gradient(to right , blue, rgb(255,0,255));
-    padding-top:0%;
-    border-radius:5%;
+    background-image: url(/img/bg.jpg);
+    
+    border-radius:13px;
     box-shadow:5px 5px 5px black;
 }
 
 #space
 {
-    margin-top:8%;
+    position: relative;
+    top: 80px;
 }
 
 #safe
@@ -36,6 +46,7 @@ h3
 #name
 {
     margin-left:3%;
+    
 }
 
 *
@@ -67,8 +78,9 @@ h3
 {
     font-size:1.5em;
     position:relative;
-    top:-30px;
-    left: -10px;
+    top:110px;
+    text-align: center;
+    
 }
 
 #s1
