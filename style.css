@@ -25,7 +25,7 @@ body {
     width: 500px;
     top:30%;
     left:10%;
-    background-image: url(/img/bg.jpg);
+    background-image: url(img/bg.jpg);
     
     border-radius:13px;
     box-shadow:5px 5px 5px black;
